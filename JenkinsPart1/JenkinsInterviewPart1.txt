@@ -1,0 +1,47 @@
+
+
+whoami
+    2  sudo apt update
+    3  java --version
+    4  sudo apt install fontconfig openjdk-17-jre
+    5  java --version
+    6  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+    7  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    8  sudo apt-get update
+    9  jenkins --version
+   10  sudo apt-get install jenkins
+   11  jenkins --version
+   12  history
+
+6a2706cb16794b8fbd01eec321a2371c
+
+http://54.166.237.231:8080//job/1_Dev/build?token=12345
+
+
+https://crontab.guru/
+
+
+TaskS
+CMM LEVEL comapnies
+
+he Capability Maturity Model (CMM) is a methodology used to develop and refine an organization's software development process. The model describes a five-level evolutionary path of increasingly organized and systematically more mature processes
+
+
+
+What is CRON TAB expression
+
+A cron expression is a string consisting of six or seven subexpressions (fields) that describe individual details of the schedule. These fields, separated by white space, can contain any of the allowed values with various combinations of the allowed characters for that field.
+
+What is GIT WebHook
+Webhooks are used in a wide range of scenarios, including: Triggering CI (continuous integration) pipelines on an external CI server. For example, to trigger CI in Jenkins or CircleCI when code is pushed to a branch. Sending notifications about events on GitHub to collaboration platforms.
+
+Diff GIT WebBook and POLL SCM
+What is the difference between webhook and poll SCM?
+Polling requests are made by the the receiver of the data updates while webhook requests are made by the source of the data. Webhooks are also automatically triggered when an event occurs, whereas polling is set up to run at fixed intervals and runs whether there is a new event or not.
+
+What does poll SCM do?
+Polling. If you configure the Poll SCM trigger in the Pipeline's UI configuration screen, then by default Jenkins will also poll for changes according to the selected Schedule, and schedule new builds automatically if changes are detected
+
+diff decalrative pipeline and scripted pipeline
+What is the difference between scripted and declarative pipelines?
+Declarative and Scripted Pipelines are constructed fundamentally differently. Declarative Pipeline is a more recent feature of Jenkins Pipeline which: provides richer syntactical features over Scripted Pipeline syntax, and. is designed to make writing and reading Pipeline code easier.
